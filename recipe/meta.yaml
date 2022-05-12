@@ -1,5 +1,5 @@
 {% set name = "pytest-randomly" %}
-{% set version = "3.11.0" %}
+{% set version = "3.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9f013b8c1923130f3d0a286fde56e1fc52cfb3547b8eedf2765c460cee979c7f
+  sha256: d60c2db71ac319aee0fc6c4110a7597d611a8b94a5590918bfa8583f00caccb2
 
 build:
   number: 0
